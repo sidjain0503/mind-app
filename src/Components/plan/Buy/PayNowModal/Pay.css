@@ -1,0 +1,151 @@
+
+.pay_btn{
+    background-color: #ffff;
+    border: 1px solid #6A73FF;
+    color: #6770FF;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+
+}
+
+.modal-close-btn{
+    position: initial;
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.modal-top{
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope";
+    margin-bottom: 20px;
+}
+.modal-top>strong{
+    font-size: 20px;
+}
+.modal-top>span{
+    font-size: 14px;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.modal-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-input>input{
+    padding: 2%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.modal-input>label{
+    font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 5px;
+}   
+
+.modal-input>select{
+    padding: 2%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    width: 94%;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+.modal-input>select>option{
+        font-size: 18px;
+}
+.task-form>button{
+    float: right;
+    background: #263238;
+    border-radius: 4px;
+    color: #ffff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ReactModal__Overlay{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.subject-container>button{
+    padding: 2%;
+    margin-left: 2%;    
+    margin-right: 2%;    
+    margin-top: 1%;
+    background: #263238;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+.sub-input{
+    padding: 2%;
+    width: 90%;
+    margin-top: 15px;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+}
+
+
+.pay-form{
+    width: 45%;
+    float: right;
+}
+
+.buy-plan-img{
+    margin-top: 10%;
+    width: 50%;
+    float: left;
+}
+.verify{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+
+    justify-content: center;
+}
+.verify>input,.verify>button{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 8px;
+
+
+}
+
+.verify>button{
+    background: linear-gradient(91.97deg, #6770FF 0%, #6A73FF 100%);
+    border: none;
+    color: #ffff;
+    font-family: "Manrope";
+    font-size: 16px;
+
+}

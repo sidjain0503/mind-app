@@ -1,0 +1,119 @@
+
+.task_btn{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #ffff;
+
+}
+
+.modal-close-btn{
+    position: relative;
+    top: 0;
+    left: 95%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.modal-top{
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope";
+    margin-bottom: 20px;
+}
+.modal-top>strong{
+    font-size: 20px;
+}
+.modal-top>span{
+    font-size: 14px;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.modal-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-input>input{
+    padding: 2%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+}
+.modal-input>label{
+    font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 10px;
+}   
+
+.task-form>button{
+    float: right;
+    background: #263238;
+    border: none;
+    border-radius: 4px;
+    color: #ffff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.ReactModal__Overlay{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+.sub-input{
+    padding: 2%;
+    width: 90%;
+    margin-top: 15px;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+}
+
+.react-calendar{
+    position: absolute;
+    width: 250px !important;
+    border-radius: 8px;
+    font-family: "Manrope" !important;
+    z-index: 100;
+}
+
+.react-calendar__tile--active{
+    border-radius: 50% !important;
+}
+
+.react-calendar__tile:hover{
+    border-radius: 50%;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}

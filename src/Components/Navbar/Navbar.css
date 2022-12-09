@@ -1,0 +1,117 @@
+.Navbar{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    
+}
+.link{
+    list-style: none;
+    padding: 4%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #7C8DB5;
+    width: 80%;
+    display: flex;
+    text-decoration: none;
+
+}
+.link>img{
+margin-right: 10px;    
+}
+#logout{
+    color: red;
+}
+#logout:hover{
+    border-right:3px solid  red;
+    
+}
+.link:hover{
+    border-right:3px solid  #7C8DB5;
+}
+.active{
+    border-right:3px solid  gray;
+    color: gray;
+
+}
+.active>img{
+    filter: grayscale(100%)
+
+
+}
+
+#menu-icon{
+    display:none;
+}
+
+@media screen and (max-width: 1200px) {
+        .link{
+            font-size: 14px !important;
+        }
+}
+
+@media screen and (max-width: 1024px) {
+    .link{
+        font-size: 12px !important;
+        
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Navbar{
+        position: absolute;
+        top: 5%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        background-color: white;
+        z-index: 100;
+    }
+    #menu-icon{
+        display:block;
+    }
+
+    #navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Navbar{
+        width: 55% !important;
+        top: 10% !important;
+    }
+    #menu-icon{
+        margin: 8% 5% !important;
+        font-size: 20px !important;
+    }
+    .link>img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+@media screen and (max-width: 355px) {
+    .wel_user>img{
+        width: 40% !important;
+    }
+    .tasks_ass>img, .tasks_d>img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+
+
+@media screen and (max-height: 400px) {
+    .Navbar{
+        top: 11%;
+    }
+    #menu-icon{
+        top: -4% !important;
+    }
+}

@@ -1,0 +1,8 @@
+.activepage{
+    background-color: #e7e2e2 !important;
+}
+@media screen and (max-width : 1024px) {
+    .pagination{
+        width: 95% !important;
+    }
+}

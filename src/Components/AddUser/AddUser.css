@@ -1,0 +1,4 @@
+.modal-form::-webkit-scrollbar{
+    background: transparent;
+    width: 12px;
+} 

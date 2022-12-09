@@ -1,0 +1,353 @@
+.chat_tab {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    width: 77%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    z-index: -1;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.users {
+    width: 378px;
+    height: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.profile,
+.user_search,
+.chats {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Manrope";
+    cursor: pointer;
+}
+
+.user_container::-webkit-scrollbar {
+    background: transparent;
+    width: 1px;
+}
+
+.chats>strong {
+    font-size: 16px;
+    font-family: "Manrope";
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.profile>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.type {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #858688;
+}
+
+.user_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_search>input {
+    padding: 3%;
+    padding-left: 40px;
+    width: 80%;
+    background: rgba(235, 236, 236, 0.2);
+    border: 1px solid rgba(235, 236, 236, 0.7);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #858688;
+}
+
+.messages {
+    width: 700px;
+    height: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+.messages-container {
+    height: 80%;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.messages-container::-webkit-scrollbar {
+    background: transparent;
+    width: 16px;
+}
+
+
+.messages-container::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.messages-container>div {
+    background-color: hsl(240deg 7% 97%);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+    width: max-content;
+    max-width: 45%;
+    font-size: 12px;
+    font-family: 'Manrope'
+}
+
+
+.chat-profile {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+
+}
+
+.send-message {
+    position: relative;
+    top: -20px;
+    padding: 3%;
+    background-color: white;
+}
+
+
+.send-message>input {
+    width: 87%;
+    padding: 16px;
+    padding-left: 20px;
+    padding-right: 65px;
+    background: rgba(133, 134, 136, 0.1);
+    border-radius: 10px;
+    border: none;
+}
+
+.nochat {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.nochat>div {
+    font-size: 18px;
+    font-family: "Manrope";
+    text-align: center;
+}
+
+.input-button-container {
+    width: auto;
+    position: absolute;
+    left: 83%;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back {
+    display: none;
+}
+
+@media screen and (max-width : 1400px) and (min-width:1200px) {
+    .users {
+        width: 400px !important;
+        margin: 0 16px !important;
+    }
+
+    .messages {
+        width: 750px;
+    }
+
+    .messages-container {
+        height: 75% !important;
+    }
+
+    .messages-container>div {
+        border-radius: 8px !important;
+    }
+}
+
+@media screen and (max-width : 1200px) and (min-width:900px) {
+
+    .users {
+        width: 380px !important;
+        margin: 0 16px !important;
+    }
+
+    .messages {
+        width: 500px !important;
+    }
+
+    .messages-container {
+        height: 75% !important;
+    }
+
+    .messages-container>div {
+        border-radius: 8px !important;
+    }
+
+    .input-button-container {
+        width: auto !important;
+        position: absolute !important;
+        left: 80% !important;
+        top: 18px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .send-message>input {
+        width: 83% !important;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:700px) {
+    .chat_tab {
+        top: 5%;
+        left: 1%;
+        width: 98%;
+    }
+
+    .users {
+        height: 90%;
+    }
+
+    .messages {
+        height: 90%;
+        width: 500px !important;
+    }
+
+    .messages-container {
+        height: 87% !important;
+
+    }
+
+    .name {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chat_tab {
+        top: 5%;
+        overflow-y: hidden !important;
+    }
+
+    .messages-container {
+        height: 80% !important;
+    }
+
+
+
+}
+
+@media screen and (max-height : 400px) {
+    .chat_tab {
+        top: 10%;
+        overflow-y: scroll !important;
+    }
+
+    .messages-container {
+        height: 60% !important;
+    }
+
+    .nochat {
+        display: none !important;
+    }
+
+    .input-button-container {
+        left: 80%;
+        top: 29px;
+        height: 20px;
+    }
+
+    .send-message>input {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .chat_tab {
+        left: 1.5%;
+        width: 96.5%;
+        top: 10%;
+        border: none;
+    }
+
+    .input-button-container {
+        left: 75% !important;
+        top: 15px !important;
+    }
+
+    .messages-container>div {
+        width: auto;
+    }
+
+    .send-message {
+        padding: 3% 0px;
+
+    }
+
+    .send-message>input {
+        width: 90% !important;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .back {
+        margin-left: 55%;
+        display: block;
+        font-size: 12px;
+        font-family: "Manrope";
+        font-weight: 600;
+    }
+
+    #chat-name {
+        font-size: 12px !important;
+    }
+}

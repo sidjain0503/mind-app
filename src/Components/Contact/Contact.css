@@ -1,0 +1,152 @@
+.Contact {
+    width: 80%;
+    margin: auto auto 70px auto;
+    font-family: "manrope";
+}
+
+.Contact>h1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.input-feild {
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    width: 94%;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input>input,
+.input>select {
+    padding: 10px;
+    width: 100%;
+    background: #F9FBFC;
+    border: 0;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+}
+
+.input-area {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto 30px auto;
+    width: 94%;
+
+}
+
+.input-area>textarea {
+    background: #F9FBFC;
+    border: 0;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input>label,
+.input>select,
+.input>input,
+.input-area>label,
+.input-area>textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.form>button {
+    width: 420px;
+    height: 60px;
+    margin-left: 30px;
+    color: #F9FBFC;
+    font-size: 16px;
+    background: #222222;
+    cursor: pointer;
+}
+
+.map {
+    margin: auto;
+    margin-top: 50px;
+    width: 95%;
+    display: flex;
+
+}
+
+.contacts {
+    width: 35%;
+}
+
+.contacts>h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525252;
+}
+
+.contacts>div{
+    width: 102%;
+    height: 42%;
+    background: #F9FBFC;
+    border-radius: 3px;
+    margin: 10px auto 10px auto;
+}
+
+
+.contacts>div>div{
+    /* background-color: #525252; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.contacts>div>div>img{
+    margin-right: 10px;
+}
+
+.contacts>div>strong,.contacts>div>span{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.map>a {
+    width: 100%;
+}
+
+.map>a>img {
+    width: 95%;
+}
+
+@media screen and (max-width: 850px) {
+    .input-feild{
+        display: block;
+    }
+    .Contact{
+        left: 0 !important;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: 100% !important;
+    }
+    .form>button{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .map{
+        display: block;
+    }
+    .contacts{
+        width: 90%;
+    }
+    .contacts>div{
+        height: 120px !important;
+    }
+}

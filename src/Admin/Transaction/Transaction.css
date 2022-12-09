@@ -1,0 +1,17 @@
+.transactions {
+    height: 90;
+    overflow-y: scroll;
+}
+.transactions::-webkit-scrollbar{
+    background: transparent;
+    width: 1px;
+} 
+.transaction {
+    height: max-content;
+    width: 95%;
+    margin: 15px auto;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-left: 4px solid #1565D8;
+border-radius: 6px;
+
+}

@@ -1,0 +1,123 @@
+.loginpage{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.loginpage_right{
+    width: 50%; 
+    margin: auto;
+    height: max-content;
+    display: flex;   
+    justify-content: center;
+    align-items: left;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.loginpage_right{
+    padding-left: 10%;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+
+}
+
+.loginpage_container{
+    width: 50% ;
+    padding: 30px;
+}
+
+.loginpage_container>h1{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+.loginpage_container>p{
+    font-family: "Manrope";
+    width: 80%;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.loginpage_container>form>button{
+    background: #4D9DF8;
+    border: none;
+    margin: 4px 0px;
+    border-radius: 6px;
+    position: relative;
+    width: 85%;
+    padding: 3%;
+    height: auto !important;
+}
+.loginpage_container>form>div{
+    display: flex;
+    flex-direction: column;
+
+}
+.loginpage_container>form>div>label{
+    font-size: 16px;
+    font-family: "Manrope";
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.loginpage_container>form>div>input{
+    width: 80%;
+    padding: 2%;
+    margin-bottom: 4%;
+    background: #FFFFFF;
+    border: 1px solid #4D9DF8;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+
+}
+
+.switch-container{
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.switch-btn{
+    width: max-content !important;
+}
+
+@media screen and (max-width: 900px) {
+
+    .loginpage_container{
+        width: 70%;
+        padding: 15px;
+    }
+    .loginpage_container>h1{
+        font-size: 24px;
+    }
+    .switch-btn{
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .loginpage {
+        display: flex !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .loginpage_left>img{
+        width: auto !important;
+    }
+    .loginpage_right{
+        height: auto !important;
+        width: 80% !important;
+    }
+    .loginpage_right>form>div>input,.loginpage_right>form>button{
+        width: 80% !important;
+    }
+    #loginimg{
+        display: none;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .switch-btn{
+        margin: 5px !important;
+    }
+}

@@ -1,0 +1,110 @@
+.Buy_course{
+    padding-top: 2%;
+    margin: auto;
+    width: 80%;
+}
+.Buy_course>h1{
+    text-align: center;
+    font-family: "Manrope";
+}
+
+.plans{
+    height: 50vh;
+    display: flex;
+    margin-top: 5%;
+
+}
+.plans_left{
+    margin-left: 2%;
+    width: 40%;
+
+    margin-right: 2%;
+}
+.plans_left>img{
+    width: 100%;
+}
+.plans_right{
+    margin: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.plan{
+    width: 90%;
+    height: 45px;
+    background: hsl(0deg 0% 100%);
+    border: 1px solid #6A73FF ;
+    padding: 3%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan>span{
+    font-size: 25px;
+    color: #6A73FF;
+}
+.plan>span>span{
+    font-size: 16px;
+}
+.plan>button{
+    background-color: #ffff;
+    border: 1px solid #6A73FF;
+    color: #6770FF;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+.plan:hover{
+    background: linear-gradient(91.97deg, #6770FF 0%, #6A73FF 100%);
+}
+.plan:hover.plan>span{
+    color: #ffff;
+}
+/* .plan:hover.plan>button{
+    color: #ffff;
+} */
+
+
+.buy_course_msg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.buy_course_msg>p{
+    width: 40%;
+    font-size: 14px;
+    font-family: "Manrope";
+}
+.buy_course_msg>h1{
+    width: 50%;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Manrope";
+}
+
+@media screen and (max-width: 900px) {
+    .Buy_course{
+        left: 10% !important;
+        height: 60% !important;
+    }
+    .plans{
+        height: 50% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Buy_course {
+        left: 10% !important;
+        height: 100% !important;
+        z-index: -100;
+    }
+    .plans_right{
+        display: block;
+    }
+}

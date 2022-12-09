@@ -1,0 +1,266 @@
+@media screen and (max-width: 1400px) {
+    .actions{
+        width: 95% !important;
+        height: 65px !important;
+        font-family: "Manrope";
+    }
+    .actions_desc>span{
+        font-size: 14px !important;
+    }
+    .task_btn{
+            font-size: 14px !important;
+            font-family: "Manrope";
+    }
+    .dashboard_tab_top{
+        height: 160px !important;
+    }
+    .wel_user>img{
+        /* width: 32% !important;
+        top: -115%; */
+    }
+    .tasks_ass,.tasks_d{
+        width: 150px !important;
+        height: 85% !important;
+    }
+   
+    .sub{
+        font-size: 16px !important;
+        width: 180px !important;
+        height: 35px !important;
+    }
+    .taskdetails{
+        height: 84% !important;
+    }
+    .tasks_assigned_tab{
+        height: 100% !important;
+    }
+}  
+
+@media screen and (max-width: 1200px) {
+        .actions{
+            width: 95% !important;
+            height: 65px !important;
+            font-family: "Manrope";
+        }
+        .actions_desc>span{
+            font-size: 14px !important;
+        }
+        .task_btn{
+                font-size: 14px !important;
+                font-family: "Manrope";
+        }
+        .dashboard_tab_top{
+            height: 160px !important;
+        }
+        .wel_user>img{
+            /* width: 38% !important;
+            top: -95%; */
+        }
+        .tasks_ass,.tasks_d{
+            width: 150px !important;
+            height: 85% !important;
+        }
+        #name-head{
+            font-size: 24px !important;
+        }
+        #name-para{
+            font-size: 14px !important;
+        }
+        .sub{
+            font-size: 16px !important;
+            width: 180px !important;
+            height: 35px !important;
+        }
+        .taskdetails{
+            height: 84% !important;
+        }
+        .tasks_assigned_tab{
+            height: 100% !important;
+        }
+}  
+
+
+
+
+@media screen and (max-width: 900px) {
+    .dashboard-tab{
+       top: 5%;
+       width: 98%;
+       left: 20px;
+    }
+    .actions_desc>span {
+        font-size: 12px !important;
+    }
+    .task_btn{
+        font-size: 12px !important;
+    }
+    .assigned-task-tab{
+        width: 100%;
+    }
+    .assigned-tasks{
+        top: 8% !important;
+        left: 5% !important;
+        width: 90% !important;
+    }
+    .checkTasks{
+        z-index: -1;
+    width: 90% !important;
+    top: 5% !important;
+    left: 5% !important;
+    }
+    #task-text{
+        font-size: 14px;
+    }
+    .Contact{
+        z-index: -1;
+        width: 95% !important;
+        top: 5% !important;
+        left: 5% !important;
+    }
+
+    .alert_mentee{flex-direction:column;}
+}
+
+@media screen and (max-width: 750px) {
+    .dashboard-tab{
+        top: 11%;
+    }
+    .checkTasks{
+            position: inherit !important;
+            width: 90% !important;
+            margin: auto;
+            margin-top: 20% !important;
+    }
+    .subject-container{
+        position: inherit !important;
+        margin-top: 5% !important;
+    }
+    .checktasks-container{
+        height: max-content !important;
+
+    }
+    .tasks_details_tab>h1{
+        float: none;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .dashboard_tab_top{
+        height: max-content !important;
+        flex-direction: column;
+    }
+    .wel_user{
+        width: 95% !important;
+    }
+    .task_num{
+        margin: 10px !important;
+    }
+    .tasks_ass, .tasks_d{
+        width: 135px !important;
+    }
+    .quick_actions{
+        display: flex;
+        flex-direction: column;
+    }
+    .actions{
+        margin:10px 0 !important;
+    }
+   
+    .tasks_assigned_tab>div{
+        height: auto;
+        width: 85vw;
+    }
+    .task_tab{
+        flex-direction: column;
+        height: 60vh !important;
+    }
+    .taskdetails{
+        width: 85vw;
+    }
+    #a_help{
+        left: 55%;
+    }
+    .task_form>button{
+        left: 55%;
+        top: 0%;
+    }
+    .task_desc{
+        margin:20px !important;
+    }
+    .revenue{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .impact_stats{
+        grid-template-columns: auto !important;
+        width: 90% !important;
+    }
+    .stats{
+        width: 100% !important;
+    }
+    .connect_container{
+        width: 95% !important;
+    }
+    .connect_container>div>p{
+        font-size: 10px !important;
+        width: 100% !important;
+    }
+    .task-table>tr>td, .task-table>tr>th{
+        
+    padding: 5% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+    }
+    #action-container{
+        flex-direction: column;
+    }
+    .admintask{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .adminbtn{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .allmentee_container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:355px) {
+    .tasks_ass, .tasks_d{
+        width: 120px !important;
+    }
+    
+    .Contact{
+        position: inherit !important;
+        margin-top: 15% !important;
+    }
+    .input-feild{
+        flex-direction: column !important;
+    }
+    .form>button{
+        width: 90% !important;
+    }
+    .map{
+        display: block !important;
+    }
+    .contacts>div {
+        width: 250px !important;
+        height: 150px !important;
+        margin: 30px !important;
+    }
+    .revenue{
+        width: 200PX !important;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .task-table>tr>td, .task-table>tr>th{
+        padding: 1%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+}

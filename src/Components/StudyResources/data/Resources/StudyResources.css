@@ -1,0 +1,220 @@
+.freeresource-container{
+    margin-top: 50px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    overflow-y: scroll;
+    height: 90%;
+    z-index: -1;
+}
+
+.classes{
+    display: flex;
+}
+
+.class11,.class12{
+    width: 50%;
+}
+.class12{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.class11>h1,.class12>h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.class11>span{
+    font-size: 14px;
+    font-family: "Manrope";
+    margin-left: 25px;
+    position: relative;
+    top: -15px;
+    display: block;
+    padding: 4px;
+
+}
+
+/* #hide{
+    display: none !important;
+} */
+
+.pyq{
+    font-family: "Manrope";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+.pyq>div{
+    text-align: left;
+    width:90%;
+    padding-top:7px;
+}
+
+.pyq>div:hover{
+    color: #56A7F2;
+}
+
+.topic-list{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+}
+
+.embed-pdf{
+    font-family: "Manrope";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.embed-pdf>a{
+    padding: 2%;
+    width: 60%;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0);
+    cursor: pointer;
+}
+.embed-pdf>span:hover{
+    background: #56A7F2;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+color: #FFFFFF;
+
+}
+
+
+
+.chemistry12{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.subjects{
+    background: rgba(64, 75, 253, 0.9);
+    border-radius: 5px;
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 0 10px 0 10px ;
+}
+.subjects>button{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: none;
+    padding: 4%;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.content{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-top: 20px ;
+}
+
+.dpp-class{
+       width: 50%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.notes{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: auto;
+    display: flex;
+}
+
+.dpp-class>div{
+    height: 30px !important;
+    width: 200px !important;
+}
+
+.dpp-class>div>button{
+    width: 100% !important;
+}
+
+.subs-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.subs{
+    padding: 5%;
+    width: max-content;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.topics-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.dpp-pdfs{
+    display: grid;
+    grid-template-columns:  auto auto ;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .freeresource-container{
+        margin-top: 0;
+        left: auto;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .notes{
+        flex-direction: column !important;
+    }
+    .subjects{
+        margin: 10px;
+    }
+    .chemistry12,.dpp-class{
+        display: block;
+    }
+    .subs-container{
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .freeresource-container{
+        top: 18%;
+    }
+}

@@ -1,0 +1,126 @@
+
+.task_btn{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #ffff;
+
+}
+
+.modal-close-btn{
+    position: relative;
+    top: 0;
+    left: 95%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.modal-top{
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope";
+    margin-bottom: 20px;
+}
+.modal-top>strong{
+    font-size: 20px;
+}
+.modal-top>span{
+    font-size: 14px;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.modal-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-input>input{
+    padding: 2%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+}
+.modal-input>label{
+    font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 10px;
+}   
+
+.task-form>button{
+    float: right;
+    background: #263238;
+    border-radius: 4px;
+    color: #ffff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ReactModal__Overlay{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.subject-container>button{
+    padding: 2%;
+    margin-left: 2%;    
+    margin-right: 2%;    
+    margin-top: 1%;
+    background: #263238;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+.sub-input{
+    padding: 2%;
+    width: 90%;
+    margin-top: 15px;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 6px;
+}
+
+.mentor>table>tr>td,.mentor>table>tr>th{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.mentor{
+    height: 50vh;
+}
+.mentor>table{
+    width: 100%;
+    font-family: "Manrope";
+}
+
+
+.mentor-search{
+    padding: 1%;
+    margin-left: 10px;
+    width: 65%;
+    border-radius: 6px;
+    border: 1px solid rgb(0,0,0,0.3);
+    padding-left: 20px;
+}

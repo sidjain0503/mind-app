@@ -1,0 +1,100 @@
+.MentorList{
+    position: absolute;
+    width: 78%;
+    top: 10%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    padding: 10px ;
+    z-index: -1;
+
+}
+/* .MenteeList::-webkit-scrollbar{
+    background: transparent;
+    width: 16px;
+} */
+
+.mentors{
+    width: 300px;
+    height: 125px;
+    background: #FDFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mentors_btn{
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.mentors_btn>button{
+    background: #263238;
+    border-radius: 4px;
+    color: #ffff;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+    padding: 3%;
+    margin: 1%;
+}
+
+.mentors_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Manrope";
+}
+.mentors_desc>span{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mentors_container{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.search_mentors{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  20px 0  20px 0;
+}
+.search_mentors>input{
+    width: 83%;
+    padding: 1.5%;
+    padding-left: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+
+.search_mentors>button{
+    background: #1890FF;
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    margin-left: 20px;
+    color: white;
+    height: 40px;
+}
+
+@media screen and (max-width: 900px){
+.MentorList {
+    width: 90%;
+    top: 5%;
+    left: 5%;
+}
+}

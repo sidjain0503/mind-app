@@ -1,0 +1,141 @@
+.search{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: white;
+}
+
+.search>input{
+    width: 30%;
+    padding: 10px;
+    margin: 0 22%;
+}
+
+.homecalander{
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.searchlist{
+    position: absolute;
+    left: 22%;
+    top: 8%;
+    width: 31%;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 12%);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.searchlist>ul>li{
+    list-style: none;
+    padding: 3%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchlist>ul>li:hover{
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (max-width : 1400px) {
+    #user-name{
+        font-size: 16px !important;
+    }
+    .search-img{
+        width: 22px !important;
+        height: 22px !important;
+    }
+    .search_end{
+        align-items: center !important;
+    }
+    
+}
+
+@media screen and (max-width : 1024px) {
+    #user-name{
+        font-size: 14px !important;
+    }
+    .searchlist{
+        top: 5% !important;
+        left: 12% !important;
+    }
+    #checktask{
+        font-size: 12px !important;
+    }
+    .searchlist>ul>li{
+        font-size: 14px !important;
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .search{
+        height: 5% !important;
+    }
+    .search_end{
+        align-items: center !important;
+        width: 40% !important;
+    }
+    .search>input{
+        margin: 0 12%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .search{
+        height: 10% !important;
+        
+    }   
+    #user-name{
+        display: none !important;
+    }
+    .search>input {
+        margin: 2px 5% 0 13% !important;
+    }
+
+    .searchlist>ul>li{
+        width: 95% !important;
+    }
+    .searchlist{
+        width: 80% !important;
+        top: 8% !important;
+
+    }
+    #homeCalander{
+        left: 15% !important;
+    }
+    #notification{
+        left: 8% !important;
+        top: 8% !important;
+        width: 250px !important;
+    }
+    #homeCalander{
+        width: 275px !important;
+    }
+    .searchlist>ul>li>span{
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-height : 400px) {
+
+    .search{
+        height: 45px !important;
+        
+    }
+    .search>input{
+        width: 45% !important;
+    }
+    .search_end{
+        width: 40% !important;
+    }
+
+}

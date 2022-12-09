@@ -1,0 +1,235 @@
+.Profile{
+    position: absolute;
+    top: 10%;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+    z-index: -1;
+}
+.top-background{
+    width: 90%;
+    margin: auto;
+    background: rgba(77, 157, 248, 0.3);
+    margin-bottom: 10%;
+    height: 20%;
+}
+.img_profile{
+    position: relative;
+    /* top: 35% !important; */
+    left: 2%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.u_name{
+    margin-bottom: 5%;
+}
+.u_name>span{
+    position: relative;
+    top: -10%;
+}
+.profile_info{
+    width: 90%;
+    margin: auto;
+    font-family: "Manrope";
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+.u_name>h1{
+    font-size: 32px;
+    margin: 0;
+}
+.profile_info_left,.profile_info_right{
+    width: 50%;
+}
+.profile_about{
+    margin-bottom: 5%;
+}
+
+.education_details{
+    height: 40%;
+}
+
+
+
+.fluency_details{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.contact_info,.join_date{
+    display: flex;
+    flex-direction: column;
+}
+
+.stream_profile{
+    margin: 5%;
+}
+
+.stream{
+    width: 105%;
+    height: 100px;
+    border: 1px solid black;
+}
+.goals_profile{
+    margin: 5%;
+}
+
+.goals{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.edit-about{
+    background-color: aqua;
+}
+
+.edit_btn{
+color: rgba(0, 0, 0, 0.5);
+background-color: transparent;
+border: none;
+font-size: 14px;
+text-align: left;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
+
+.edit_btn>span{
+    width: max-content;
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    padding: 10%;
+    border: 1px solid rgb(0,0,0,0.8);
+    display: flex;
+}
+.edit_btn>span>img{
+    margin-right: 5px;
+}
+#edit-about{
+    float: right;
+}
+
+.editcontent{
+display: flex;
+flex-direction: column;
+}
+.editcontent>label{
+    font: 16px;
+    font-weight: 600;
+    font-family: "Manrope";
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.editcontent>textarea{
+    height: 75px;
+}
+.editcontent>textarea,.editcontent>input{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0,0,0,0.1);
+    padding: 3%;
+    font-size: 16px;
+}
+
+.edit-form{
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+#editsubmit-btn{
+    float: right;
+    margin: 10px;
+    padding: 3%;
+    font-size: 16px;
+    border-radius: 4px;
+    background: black;
+    color: #ffff;
+}
+
+.impact_stats{
+    display: grid;
+grid-template-columns: auto auto
+}
+.profile-stats{
+    font-family: "Manrope";
+    width: 300px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .Profile{
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .top-background{
+        height: max-content !important;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width:700px) {
+    .top-background{
+        height: max-content !important;
+
+    }
+    .impact_stats{
+        width: 72% !important;
+    }
+    .profile-stats{
+        width: 230px !important;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .profile_info{
+        flex-direction: column;
+    }
+    .profile_info_left, .profile_info_right{
+        width: 100%;
+    }
+    .contact_info, .join_date {
+        display: flex;
+        margin: 10px 0;
+        flex-direction: row;
+    }
+  
+    .connect_container{
+        padding: 0 !important;
+    }
+    .connect_container>img{
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .top-background{
+        height: 65% !important;
+    }
+    .impact_stats{
+        width: 72%;
+    }
+    .profile-stats{
+        width: 255px !important;
+    }
+}
